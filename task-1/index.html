@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF_8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mandelbrot</title>
+</head>
+<body>
+    <p>Mandelbrot fractal</p>
+    <!--
+    <script src="main.js"></script>
+    <script type="module">
+        import { initGL } from "./main.js";
+        window.addEventListener("load", () => {
+            initGL("glCanvas");
+        });
+    </script>
+    -->
+    <script type="module">
+        import { initGL } from "./main.js";
+        window.addEventListener("load", () => {
+            initGL("glCanvas1");
+        });
+        if (false) {
+            window.location.href = "https://cgsg.pml30.ru";
+        }
+    </script>
+    <!--
+    <div>
+        <canvas id="glCanvas" width="1080" height="1080"></canvas>
+    </div>
+    -->
+    <div>
+        <canvas id="glCanvas1" width="1920" height="1080"></canvas>
+    </div>
+    <!--
+
+    <img src="images/spb.jpg" />
+    <p>MZ2</p>
+    <img src="images/makaka.jpg" />
+        -->
+</body>
