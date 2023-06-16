@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF_8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My first page</title>
+</head>
+<body>
+    <script type="module">
+        import { initGL } from "./main.js";
+        window.addEventListener("load", () => {
+            initGL();
+        });
+    </script>
+    <div>
+        <canvas id="glCanvas" width="800" height="800"></canvas>
+    </div>
+</body>
