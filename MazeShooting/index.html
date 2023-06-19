@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF_8" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>MAZE SHOOTING GAME</title>
+</head>
+<body>
+  <script type="module">
+    import { main } from "./src/main.js";
+    window.addEventListener("load", () => {
+      main();
+    });
+  </script>
+  <div>
+    <canvas id="glCanvas" width="1200" height="800"></canvas>
+  </div>
+</body>

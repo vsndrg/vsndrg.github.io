@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0"
+  }
+}
